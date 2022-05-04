@@ -15,9 +15,9 @@ def post_points():
         points = 3
     elif truth == "If you had to date one of your exs again, who would it be?":
         points = 5
-    elif truth == "What is the most embarrassing situation you’ve ever been a part of?"
+    elif truth == "What is the most embarrassing situation you\’ve ever been a part of?":
         points = 7
-    elif truth == "Do you pee in the shower?"
+    elif truth == "Do you pee in the shower?":
         points = 5
     else:
         points = 4

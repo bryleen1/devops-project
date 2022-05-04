@@ -11,9 +11,9 @@ def home():
     #return Response(f"{truth_api.text} \n{dare_api.text}", mimetype="text/plain")
 
 
-content = {'truth': 'truth', 'dare': 'dare'}
-status = requests.post('http://service-4:5000/post/status', json=content).json()
-json_response = status.json()
+content = {'truth': truth_api, 'dare': dare_api}
+points = requests.post('http://service-4:5000/post/points', json=content).json()
+json_response = points.json()
 
 statement = f"Truth:\t{truth_api} \nDare:\t{dare_api} \n{json_response["truth"]} points for truth \n{json_response["dare"]} points for dare"
 

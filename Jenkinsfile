@@ -9,7 +9,7 @@ pipeline{
 
             stage('Building and pushing images'){
                 steps {
-                    sh "ln -s devops-project/docker-compose.yaml building"
+                    sh "ln -s devops-project/docker-compose.yaml build1"
                 }
             }
         }

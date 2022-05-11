@@ -4,3 +4,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
+pytest
+pytest-cov
+flask_testing
+requests_mock

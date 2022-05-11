@@ -2,7 +2,7 @@
 python3 -m venv venv
 ls -l
 source venv/bin/activate
-declare -a directories=("service_1" "service_2" "service_3" "service_4")
+declare -a directories=("front_end_api" "dare_api" "truth_api" "merge_api")
 for dir in "${directories[@]}"
 do
     cd ${dir}

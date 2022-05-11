@@ -6,3 +6,6 @@ MarkupSafe
 Werkzeug
 requests
 requests_mock
+pytest
+pytest-cov
+flask_testing

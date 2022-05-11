@@ -1,7 +1,7 @@
 version: "3.8"
 services: 
   nginx: 
-    container_name: nginx_1
+    container_name: nginx_
     image: nginx:latest
     ports: 
     - target: 80
@@ -16,17 +16,22 @@ services:
 
   front-end: 
     container_name: front_end_api
-    build: ./front-end
+    build: ./front_end_api
     depends_on: 
-    - truth_backend
-    - dare_backend 
+    - truth_api
+    - dare_api 
+    - merge_api
 
-  truth_backend: 
+  truth_api: 
     container_name: truth_api
-    build: ./truth_backend
+    build: ./truth_api
 
 
-  dare_backend:
-    container_name: dare_api 
-    build: ./dare_backend 
+  dare_api:
+    container_name: dare_api
+    build: ./dare_api 
+
+  merge_api:
+    container_name: merge_api
+    build: ./merge_api 
     

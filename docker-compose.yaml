@@ -1,0 +1,32 @@
+version: "3.8"
+services: 
+  nginx: 
+    container_name: nginx_1
+    image: nginx:latest
+    ports: 
+    - target: 80
+      published: 80
+      protocol: tcp
+    volumes: 
+    - type: bind 
+      source: ./nginx.conf
+      target: /etc/nginx/nginx.conf
+    depends_on: 
+    - front-end 
+
+  front-end: 
+    container_name: front_end_api
+    build: ./front-end
+    depends_on: 
+    - truth_backend
+    - dare_backend 
+
+  truth_backend: 
+    container_name: truth_api
+    build: ./truth_backend
+
+
+  dare_backend:
+    container_name: dare_api 
+    build: ./dare_backend 
+    

@@ -11,6 +11,5 @@
 - name: "Deploy app"
   docker_stack:
     state: present
-    name: truth_or_dare
     compose:
       - /home/jenkins/docker-compose.yaml

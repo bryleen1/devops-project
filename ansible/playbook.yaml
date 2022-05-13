@@ -3,12 +3,12 @@
   roles: 
   - dockerinstall
 
-- hosts: managers
+- hosts: swarm-manager
   become: true
   roles:
   - swarm-manager
 
-- hosts: workers
+- hosts: swarm-worker
   become: true
   roles:
   - swarm-worker

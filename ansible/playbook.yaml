@@ -6,9 +6,9 @@
 - hosts: managers
   become: true
   roles:
-  - swarmmanager
+  - swarm-manager
 
 - hosts: workers
   become: true
   roles:
-  - swarmworker
+  - swarm-worker

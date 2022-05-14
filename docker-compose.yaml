@@ -27,15 +27,21 @@ services:
     container_name: truth_api
     image: docker.io/bryleen1/truth-api:latest
     build: ./truth_api
+    deploy:
+      replicas: 3
 
 
   dare_api:
     container_name: dare_api
     image: docker.io/bryleen1/dare-api:latest
-    build: ./dare_api 
+    build: ./dare_api
+    deploy: 
+      replicas: 3
 
   merge_api:
     container_name: merge_api
     image: docker.io/bryleen1/merge-api:latest
-    build: ./merge_api 
+    build: ./merge_api
+    deploy: 
+      replicas: 3
     

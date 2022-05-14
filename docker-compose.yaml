@@ -16,6 +16,7 @@ services:
 
   front-end: 
     container_name: front_end_api
+    image: docker.io/bryleen1/front-end-api:latest
     build: ./front_end_api
     depends_on: 
     - truth_api
@@ -24,14 +25,17 @@ services:
 
   truth_api: 
     container_name: truth_api
+    image: docker.io/bryleen1/truth-api:latest
     build: ./truth_api
 
 
   dare_api:
     container_name: dare_api
+    image: docker.io/bryleen1/dare-api:latest
     build: ./dare_api 
 
   merge_api:
     container_name: merge_api
+    image: docker.io/bryleen1/merge-api:latest
     build: ./merge_api 
     

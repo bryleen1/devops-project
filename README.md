@@ -46,8 +46,16 @@ _Attach image here_
 Service 1 sends a get request to service 2 or 3 (depending whether the user picks truth or dare) and a post request to service 4 - which returns a random number ( the min and max value that can be sent to service 1 depends on whether the user picked true or false).
 
 ### Testing
-All my unit tests passed, with a coverage over 80% on all of them.
-__Attach image here__
+All my unit tests passed, with a coverage over 80% on all of them.  
+
+![image](https://user-images.githubusercontent.com/88090980/168694844-7d0efd41-9a55-4673-b5fd-5fcaa162fedb.png)
+
+![image](https://user-images.githubusercontent.com/88090980/168694857-de4836d1-83bd-4868-b2f9-8e81d86a9da2.png)
+
+![image](https://user-images.githubusercontent.com/88090980/168694880-e750dad2-2ce3-43ef-97d4-44498a777d72.png)
+
+![image](https://user-images.githubusercontent.com/88090980/168694890-031629db-0e51-4d7c-881b-0edd1831f176.png)
+
 
 ## Future developments
 Going forwards, I would like the app to :

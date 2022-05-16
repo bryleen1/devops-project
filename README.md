@@ -22,6 +22,7 @@ The technologies used in this project include:
 ## Project planning
 ### Kanban Board
 Following my decision to create a truth or dare app for this project, I designed a Kanban board to plan how I was going to execute this project to completion. I used Jira to create the board and below is an image of what it looked like.  
+![image](https://user-images.githubusercontent.com/88090980/168690974-443c123b-5244-40fc-9b01-29433ad218de.png)
 
 
 ### Risk Assessment

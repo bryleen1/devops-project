@@ -22,15 +22,18 @@ The technologies used in this project include:
 ## Project planning
 ### Kanban Board
 Following my decision to create a truth or dare app for this project, I designed a Kanban board to plan how I was going to execute this project to completion. I used Jira to create the board and below is an image of what it looked like.  
+
 ![image](https://user-images.githubusercontent.com/88090980/168690974-443c123b-5244-40fc-9b01-29433ad218de.png)
 
-
 ### Risk Assessment
-Following the production of my Kanban Board, I decided to complete a risk assessment for the project. Below is the completed version of the risk assessment, it was ammended over the course of the project.
+Following the production of my Kanban Board, I decided to complete a risk assessment for the project. Below is the completed version of the risk assessment, it was ammended over the course of the project.  
 
+![image](https://user-images.githubusercontent.com/88090980/168692318-19c0ac5f-9c17-4630-a185-dc885766b04b.png)
 
 ### Services
-__Attach image here__  
+
+![image](https://user-images.githubusercontent.com/88090980/168693853-8b03a6bb-bf86-422d-a2e4-284592dc43dd.png)
+
 This is what the initial service 1 looked like. I decided to start simple, the app had no templates and it presented both options (followed by points) on the same page. Once I could see that at a basic level, all services were working well together, I then added the templates (to allow user interaction) and split the responses different pages (which is what we see now in the current code).  
 
 ## CI Pipeline

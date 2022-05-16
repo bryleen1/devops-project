@@ -38,12 +38,14 @@ This is what the initial service 1 looked like. I decided to start simple, the a
 
 ## CI Pipeline
 Once the app was finalised and unit tests were carried out, I then created a Jenkins pipeline. I used a webhook to automate the running of the pipeline so that everytime I push to my GitHub repository, Jenkins ran my tests and ansible installed dependecies, set up the swarm and deployed my application using my Jenkinsfile.    
-__Attach Jenkins image. The one on the first page with the green boxes__  
+![image](https://user-images.githubusercontent.com/88090980/168696510-322566bc-de5e-4b25-8843-8edcc85a4889.png)
 
 ### Services
-Upon deployment, the image below depicts how my app works.
-_Attach image here_  
-Service 1 sends a get request to service 2 or 3 (depending whether the user picks truth or dare) and a post request to service 4 - which returns a random number ( the min and max value that can be sent to service 1 depends on whether the user picked true or false).
+Upon deployment, the image below depicts how my app works.  
+
+![image](https://user-images.githubusercontent.com/88090980/168695985-251d92ad-4c7a-42aa-bf34-42c4b834011e.png)
+
+Service 1 sends a get request to service 2 or 3 (depending whether the user picks truth or dare) and a post request to service 4 - which returns a random number ( the min and max value that can be sent to service 1 depends on whether the user picked true or false). All these services sit behind an NGINX reverse proxy server to increase increase security, performance, and reliability.
 
 ### Testing
 All my unit tests passed, with a coverage over 80% on all of them.  

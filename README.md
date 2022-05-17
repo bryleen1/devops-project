@@ -67,6 +67,6 @@ Going forwards, I would like the app to :
 * utilise more cloud resources to ensure better resilience, redudancy and availabilty
 
 ### Acknowledgements
-Victoria Scare
-22MarEnable1 cohort
+Victoria Scare  
+22MarEnable1 cohort  
 W3 schools (background colour)

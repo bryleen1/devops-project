@@ -2,19 +2,20 @@ from application import app
 from flask import Flask, request, Response, render_template, url_for
 import requests, json
 
-
-# @app.route('/', methods=['GET'])
-# def home(): 
-#     truth_api = requests.get('http://truth_api:5000/get_truth')
-#     dare_api = requests.get('http://dare_api:5000/get_dare')
+"""
+ @app.route('/', methods=['GET'])
+ def home(): 
+     truth_api = requests.get('http://truth_api:5000/get_truth')
+     dare_api = requests.get('http://dare_api:5000/get_dare')
     
-#     content = {'truth': truth_api.text, 'dare': dare_api.text}
+     content = {'truth': truth_api.text, 'dare': dare_api.text}
 
-#     merge_api1 = requests.post('http://merge_api:5000/post/truth', json=content)
-#     merge_api2 = requests.post('http://merge_api:5000/post/dare', json=content)
+     merge_api1 = requests.post('http://merge_api:5000/post/truth', json=content)
+     merge_api2 = requests.post('http://merge_api:5000/post/dare', json=content)
     
 
-#     return Response(f"Truth: \t{truth_api.text} \t{merge_api1.text} \nDare: \t{dare_api.text} \t{merge_api2.text}", mimetype="text/plain")
+     return Response(f"Truth: \t{truth_api.text} \t{merge_api1.text} \nDare: \t{dare_api.text} \t{merge_api2.text}", mimetype="text/plain")
+"""
 
 @app.route('/')
 @app.route('/home', methods=['GET'])

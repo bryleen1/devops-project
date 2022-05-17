@@ -11,7 +11,7 @@ import requests, json
      content = {'truth': truth_api.text, 'dare': dare_api.text}
 
      merge_api1 = requests.post('http://merge_api:5000/post/truth', json=content)
-     merge_api2 = requests.post('http://merge_api:5000/post/dare', json=content)
+     merge_api2 = requests.post('http://merge_api:5000/post/dare', json=content)/
     
 
      return Response(f"Truth: \t{truth_api.text} \t{merge_api1.text} \nDare: \t{dare_api.text} \t{merge_api2.text}", mimetype="text/plain")

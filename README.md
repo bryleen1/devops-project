@@ -66,7 +66,7 @@ Going forwards, I would like the app to :
 * have a load balance to control
 * utilise more cloud resources to ensure better resilience, redudancy and availabilty
 
-### Acknowledgements
+## Acknowledgements
 Victoria Sacre  
 22MarEnable1 cohort  
 W3 schools (background colour)

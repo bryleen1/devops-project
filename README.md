@@ -34,7 +34,7 @@ Following the production of my Kanban Board, I decided to complete a risk assess
 
 ![image](https://user-images.githubusercontent.com/88090980/168693853-8b03a6bb-bf86-422d-a2e4-284592dc43dd.png)
 
-This is what the initial service 1 looked like. I decided to start simple, the app had no templates and it presented both options (followed by points) on the same page. Once I could see that at a basic level, all services were working well together, I then added the templates (to allow user interaction) and split the responses different pages (which is what we see now in the current code).  
+This is what the initial service 1 looked like. I decided to start simple, the app had no templates and it presented both options (followed by points) on the same page. Once I could see that at a basic level, all services were working well together, I then added the templates (to allow user interaction) and split the responses different pages (which is what we see now in the current code). The full code of my initial service 1 can be seen in the front_end_api folder (commented out).  
 
 ## CI Pipeline
 Once the app was finalised and unit tests were carried out, I then created a Jenkins pipeline. I used a webhook to automate the running of the pipeline so that everytime I push to my GitHub repository, Jenkins ran my tests and ansible installed dependecies, set up the swarm and deployed my application using my Jenkinsfile.    
